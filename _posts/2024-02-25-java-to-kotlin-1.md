@@ -2,6 +2,8 @@
 layout: post
 title: java-to-kotlin-1
 date: 2024-02-25 12:58 +0900
+categories: ["자바에서 코틀린으로"]
+tags: [java]
 ---
 
 # 자바에서 코틀린으로

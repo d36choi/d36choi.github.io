@@ -2,6 +2,8 @@
 layout: post
 title: java-to-kotlin-2
 date: 2024-02-25 14:12 +0900
+categories: ["자바에서 코틀린으로"]
+tags: [java]
 ---
 
 # ch2. java build에 코틀린 지원 추가하기
