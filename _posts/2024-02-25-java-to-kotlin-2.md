@@ -21,7 +21,7 @@ tags: [java]
 - 바이트코드 최소버전에 맞는 코틀린 표준라이브러리를 의존성에 추가
 - jdk 1.8 에 호환되는 바이트코드도 현재 생성 가능함
 - 위 버전 바이트코드가 제일 효과적이라고 함!
-![img.png](/assets/img/img.png)
+
 
 ### 코틀린 소스코드 위치는?
 - `src/main/kotlin` 과 `src/test/kotlin`으로 하나씩 더 만들자
