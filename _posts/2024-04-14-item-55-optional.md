@@ -3,7 +3,7 @@ layout: post
 title: java Optional을 제대로 쓰기 위한 12가지 레시피
 date: 2024-04-14 11:30 +0900
 categories: ["요약 및 정리"]
-tags: [java, optional]
+tags: [java]
 ---
 
 
