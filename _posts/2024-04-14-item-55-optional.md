@@ -111,6 +111,7 @@ public String getEmployeeStatus(long id) {
 
 #### 5. computed 반환 값으로 orElse()를 쓰지말라
 - 4의 내용에 이어서, 계산이 요구되는 경우엔 성능하락의 원인이 될 수 있다
+
 ```java
 Optional<Employee> getFromCache(int id) {
     System.out.println("search in cache with Id: " + id);
@@ -121,7 +122,9 @@ Optional<Employee> getFromDB(int id) {
     System.out.println("search in Database with Id: " + id);    
     // get value from database
 }
+```
 
+```java
 public Employee findEmployee(int id) {        
     return getFromCache(id)
             .orElse(getFromDB(id)
@@ -131,6 +134,7 @@ public Employee findEmployee(int id) {
 - 위 코드는, 캐시에 있으면 캐시로부터 가져오고, 만약 없다면 DB를 조회하는 예제다
 - 만약 직원이 캐시,데이터베이스에 둘다 없다면 NotFoundException을 뱉어낸다
 - 만약 캐시에 이 직원이 있다하더라도, 결과는 예상과 다르게 나온다
+
 
 ```
 Search in cache with Id: 1
