@@ -284,7 +284,8 @@ return status == null ? "Not started yet." : status;
 - 결국 Optional을 다른 자바 기능들과 동일하게, 적절히 쓰일 수도 있고 막무가내로 쓰일 수도 있다
 - 잘 쓰려면 위 레시피들을 이해해두어야 한다
 - 더 자세한 내용은 아래를 참고하라
-- [documentation for Optional](https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/util/class-use/Optional.html) and see ["_Java 8 in Action"_](http://www.manning.com/books/java-8-in-action) [by Raoul-Gabriel Urma, Mario Fusco, and Alan Mycroft](https://www.manning.com/books/java-8-in-action) (Manning, 2014).
+- [documentation for Optional](https://docs.oracle.com/en/java/javase/15/docs/api/java.base/java/util/class-use/Optional.html).
+- [java8 in action](https://www.manning.com/books/java-8-in-action)
 
 
 - 위 내용은 [Mohamed Taman의 글](https://blogs.oracle.com/javamagazine/post/12-recipes-for-using-the-optional-class-as-its-meant-to-be-used)을 요약한 것입니다
